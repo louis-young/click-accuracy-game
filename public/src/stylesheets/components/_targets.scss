@@ -1,0 +1,22 @@
+.targets {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background: $background-color;
+}
+
+.target {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background: $primary-color;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+  border: solid 5px rgba(255, 255, 255, 0.25);
+  transition: unset;
+  &:hover {
+    background: $primary-color-light;
+  }
+}

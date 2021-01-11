@@ -1,0 +1,25 @@
+$primary-color: #5424d8;
+
+$ratio: 10%;
+
+$primary-color-dark: darken($primary-color, $ratio);
+$primary-color-light: lighten($primary-color, $ratio);
+
+$background-color: #161616;
+$background-color-dark: #111111;
+
+$body-font-family: "Montserrat", sans-serif;
+
+$heading-font-family: inherit;
+
+$white: #ffffff;
+
+$thin: 100;
+$extra-light: 200;
+$light: 300;
+$normal: 400;
+$medium: 500;
+$semi-bold: 600;
+$bold: 700;
+$extra-bold: 800;
+$heavy: 900;

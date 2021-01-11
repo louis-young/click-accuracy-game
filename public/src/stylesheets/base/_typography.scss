@@ -1,0 +1,29 @@
+@import url("//fonts.googleapis.com/css?family=Montserrat:400,500,600");
+
+body {
+  font-family: $body-font-family;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font-family;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+textarea,
+input,
+label {
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}

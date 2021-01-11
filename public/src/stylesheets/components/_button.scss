@@ -1,0 +1,15 @@
+.button {
+  transition: 0.2s background ease-in-out;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: $primary-color;
+  color: white;
+  padding: 1rem 2.5rem;
+  border-radius: 0.15rem;
+  text-transform: uppercase;
+  font-weight: $medium;
+  &:hover {
+    background: $primary-color-dark;
+  }
+}

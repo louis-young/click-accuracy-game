@@ -1,0 +1,15 @@
+.state {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: $background-color;
+  display: none;
+  min-height: 400px;
+  &--menu,
+  &--results {
+    place-items: center;
+  }
+  &--active {
+    display: grid;
+  }
+}
