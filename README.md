@@ -1,12 +1,20 @@
-﻿# Click Accuracy Game
+# Click Accuracy Game
 
 Native JavaScript ES6+ object-orientated click accuracy game.
 
 ![Click Accuracy Game](documentation/click-accuracy-game.jpg)
 
-## Project Structure
+## Description
 
-### Features
+This is a game which tests mouse accuracy and click speed by generating clickable targets at random coordinates and calculating metrics at the end.
+
+## Motivation
+
+I built this game to learn more about object oriented programming and to better my native JavaScript skills.
+
+### Project Structure
+
+#### Features
 
 - Scalable and modular architecture
 - Local development server
@@ -15,13 +23,13 @@ Native JavaScript ES6+ object-orientated click accuracy game.
 - JavaScript transpiling and minification
 - Static asset optimization
 
-### System Requirements
+#### System Requirements
 
 You'll need the following installed on your local machine.
 
 1.  [Node.js](https://nodejs.org/en/download/)
 
-### Setup
+#### Setup
 
 **1. Clone the repository and install with NPM**
 
@@ -46,7 +54,7 @@ Simply run any command in the project root directory;
 
 `$ npm start`
 
-### Architecture
+#### Architecture
 
 The root contains two directories:
 
@@ -74,7 +82,7 @@ Inside of `src` there are three directories:
 
 - `stylesheets` - contains the Sass architecture.
 
-### JavaScript
+#### JavaScript
 
 The JavaScript workflow has been designed so that there's as few server requests as possible whilst still allowing an efficient and modular way to create and edit scripts.
 
@@ -90,9 +98,9 @@ The JavaScript structure is as follows:
 
 - `public/src/scripts/vendor/*.js` Third party scripts/libraries/frameworks.
 
-### Miscellaneous
+#### Miscellaneous
 
-#### Linting
+##### Linting
 
 All of your HTML, Sass and JavaScript is automatically linted on change. The output will appear in the console and will prevent poor code, bad convention and will lower the amount of silent/runtime errors.
 
@@ -100,13 +108,13 @@ This can also be run as a separate task by running `$ npm run lint`.
 
 These can be configured by editing the associated linter configuration file in the project root.
 
-#### Sourcemaps
+##### Sourcemaps
 
 When using compilers and combining files, you need to keep track (a map) of where this code originated from. This helps immensely when debugging a project as you can see which file an error/warning is being thrown from and view this as source code.
 
 Simply use developer tools as you would usually, it's all handled for you.
 
-##### Media Queries
+###### Media Queries
 
 The new project structure contains a series of custom mixins for responsive breakpoints within Sass. This system is very user friendly and allows anyone an easy way to change, add or remove breakpoints.
 
@@ -123,7 +131,7 @@ body {
 
 This means that on a mobile viewport, the background will be red. When you reach a tablet viewport width, the background will become blue. This allows for media queries to be contained within a single rule set and makes code much more readable and maintainable. It's also faster to write.
 
-##### Containers
+###### Containers
 
 The new project structure contains a modular and reusable container Sass file which holds all of the project containers. This is very easy to add to, remove or change.
 
@@ -185,16 +193,16 @@ body {
 }
 ```
 
-### Compilation
+#### Compilation
 
-#### Sass
+##### Sass
 
 Every Sass file and partial is linted, compiled, minified, prefixed and added in to the `main.min.css` file in the `dist` directory. This is ready to be deployed.
 
-#### JavaScript
+##### JavaScript
 
 You can place multiple scripts in any of the scripts directories. These will all be compiled and bundled in to a single file per directory and moved in to the `dist` directory.
 
-#### Assets
+##### Assets
 
 Static assets are automatically compressed/optimised and moved to the `dist` directory. This supports most common static asset file types.
