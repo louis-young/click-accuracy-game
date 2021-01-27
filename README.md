@@ -114,7 +114,7 @@ When using compilers and combining files, you need to keep track (a map) of wher
 
 Simply use developer tools as you would usually, it's all handled for you.
 
-###### Media Queries
+##### Media Queries
 
 The new project structure contains a series of custom mixins for responsive breakpoints within Sass. This system is very user friendly and allows anyone an easy way to change, add or remove breakpoints.
 
@@ -131,7 +131,7 @@ body {
 
 This means that on a mobile viewport, the background will be red. When you reach a tablet viewport width, the background will become blue. This allows for media queries to be contained within a single rule set and makes code much more readable and maintainable. It's also faster to write.
 
-###### Containers
+##### Containers
 
 The new project structure contains a modular and reusable container Sass file which holds all of the project containers. This is very easy to add to, remove or change.
 
