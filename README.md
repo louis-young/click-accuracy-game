@@ -1,6 +1,6 @@
 # Click Accuracy Game
 
-Native JavaScript ES6+ object-orientated click accuracy game.
+A native JavaScript ES6+ object-orientated click accuracy game.
 
 ![Click Accuracy Game](documentation/click-accuracy-game.jpg)
 
