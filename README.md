@@ -13,3 +13,5 @@ This is a game which tests mouse accuracy and click speed by generating clickabl
 ## Motivation
 
 I built this game to learn more about object oriented programming and to better my native JavaScript skills.
+
+ 
